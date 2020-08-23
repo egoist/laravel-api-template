@@ -15,7 +15,11 @@ Building your API with [Laravel](https://laravel.com/).
 ## Run it locally
 
 ```bash
+# Run this on your machine if you have PHP/composer installed
+# Otherwise you should run it inside your docker container
 composer install
+
+# Run this on your machine
 docker-compose up -d
 ```
 
