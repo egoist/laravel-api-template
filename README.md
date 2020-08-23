@@ -8,6 +8,7 @@ Building your API with [Laravel](https://laravel.com/).
 1. Replace all `laravel-api` in `docker-compose.yml` with your custom app name (in snake-case).
 2. Copy `.env.example` to `.env`..
 3. Replace `Laravel API` in `.env` with your app name.
+4. Update `DB_DATABASE` in `.env` with a desired database name.
 
 ## Run it locally
 
