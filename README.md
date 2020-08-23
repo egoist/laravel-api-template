@@ -7,7 +7,7 @@ Building your API with [Laravel](https://laravel.com/).
 0. Install `docker`, it's used for development
 1. Replace all `laravel-api` in `docker-compose.yml` with your custom app name (in snake-case).
 2. Copy `.env.example` to `.env`..
-2. Replace `Laravel API` in `.env` with your app name.
+3. Replace `Laravel API` in `.env` with your app name.
 
 ## Run it locally
 
@@ -16,3 +16,7 @@ docker-compose up -d
 ```
 
 Then open `http://localhost:8080`
+
+## Adding API Routes
+
+Adding routes directly to `routes/api.php`, we have removed the `/api` prefix for you.
